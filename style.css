@@ -1,0 +1,112 @@
+.pig{
+    margin-left: 15rem;
+    margin-top: 10rem;
+    position:relative;
+}
+
+.pig_face{
+    height: 16rem;
+    width: 16rem;
+    background-color:rgb(255, 191, 203);
+    border: 1px solid black;
+    border-radius: 50%;
+    position:relative
+}
+
+.eye_left{
+    height: 4rem;
+    width: 4rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 2rem;
+    margin-top: 4rem;
+}
+
+.eye_ball_left{
+    height: 1.8rem;
+    width: 1.8rem;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    margin-left: 1rem;
+    margin-top: 1.4rem;
+}
+
+.eye_right{
+    height: 4rem;
+    width: 4rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 10rem;
+    margin-top: 4rem;
+}
+
+.eye_ball_right{
+    height: 1.8rem;
+    width: 1.8rem;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    margin-left: 1rem;
+    margin-top: 1.4rem;
+}
+
+.mouth{
+    width: 5rem;
+    height: 3rem;
+    background-color: rgb(255, 85, 0);
+    border-radius: 40% 40% 40% 40%;
+    position: absolute;
+    margin-left: 5.5rem;
+    margin-top: 10rem;
+}
+
+.mouth_hole-1{
+    height: 1.2rem;
+    width: 1.2rem;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    margin-left: .7rem;
+    margin-top: 1rem;
+}
+
+.mouth_hole-2{
+    height: 1.2rem;
+    width: 1.2rem;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.ear_left{
+    height: 5rem;
+    width: 5rem;
+    background-color:rgb(255, 191, 203);
+    border: 1px solid black;
+    border-radius: 50px 50px 0px 0px;
+    position: absolute;
+    margin-left: 9rem;
+    margin-top: -1rem;
+    z-index:-1;
+}
+
+.ear_right{
+    height: 5rem;
+    width: 5rem;
+    background-color:rgb(255, 191, 203);
+    border: 1px solid black;
+    border-radius: 50px 50px 0px 0px;
+    position: absolute;
+    margin-left: 2rem;
+    margin-top: -1rem;
+    z-index:-1;
+}
